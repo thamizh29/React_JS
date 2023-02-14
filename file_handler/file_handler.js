@@ -1,17 +1,17 @@
- var fs = require("fs");
-// //import 
-// //Asynchronous read
+ var fs = require("fs"); 
+// //Synchronous read order
+// var data =fs.readFileSync("sample.txt");
+// console.log("Synchronous read: " + data.toString());
+// console.log("Program has end");
+// //Asynchronous read un order
 // fs.readFile("sample.txt", function (err, data){
 //     if (err) {
 //         return console.error(err);
 //     }
 //     console.log("Asynchromous read : " + data.toString());
 // });
-// //Synchronous read
-// var data =fs.reaadFileSync("sample.txt");
-// console.log("Synchronous read: " + data.toString());
-// console.log("Program has end");
-// write file it only replace txt 
+// console.log("Priority Base");
+// //write file it only replace txt 
 // console.log("going to write into existing file");
 // fs.writeFile("simple.txt", "simply easy laerning ",function (err){
 //     if (err){
