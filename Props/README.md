@@ -5,6 +5,6 @@ what is props ?<br>
       The every web page have the input field and button so we create the InputBox component <br>
       set the props([pass the parameter])<br>
       call the parameter<br>
-          every inputfield have the box type ={type}<br>
+          every inputfield have the field type ={type}<br>
       call the component<br>
               <InputBox type={text} /><br>
